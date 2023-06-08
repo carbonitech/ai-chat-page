@@ -22,7 +22,6 @@ header {
 }
 
 .navbar {
-  background-color: #333;
   color: #fff;
   display: flex;
   justify-content: center;
@@ -39,12 +38,13 @@ header {
 }
 
 .navbar-links a {
-  color: #fff;
+  color: #2b2a2a;
   text-decoration: none;
-  margin-left: 10px;
+  margin: auto 20px;
+  font-size: 20px;
 }
 
 .navbar-links a:hover {
-  text-decoration: underline;
+  border-bottom: solid 1px #2b2a2a;
 }
 </style>
