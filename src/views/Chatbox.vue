@@ -11,7 +11,7 @@ async function submitQuery() {
     chat_response.value = ''
     waiting.value = true
     try {
-        const response = await fetch ('http://localhost:8000/chat', {
+        const response = await fetch ('https://api.carbonitech.com/ai/chat', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'
